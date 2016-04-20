@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -16,24 +16,30 @@
         </nav>
         </header>
 <div class="filters">
-    <ul><p>инфраструктура:</p>
-        <li>БАССЕЙН</li>
-        <li>ПАРКОВКА</li>
-        <li>WI-FI</li>
-    </ul>
-    <ul><p>тип жилья:</p>
-        <li>ГОСТИНИЦА</li>
-        <li>МОТЕЛь</li>
-        <li>АПАРТАМЕНТЫ</li>
-    </ul>
+  <form action="">
+   <fieldset class="infrastructure">
+    <legend> инфраструктура:</legend>
+        <label><input id="check" for="check" type="checkbox">БАССЕЙН</label>
+        <label><input id="check" for="check" type="checkbox">ПАРКОВКА</label>
+        <label><input id="check" for="check" type="checkbox">WI-FI</label>
+    </fieldset>
+    </form>
+    <form action="">
+    <fieldset>
+    <legend>тип жилья:</legend>
+        <label><input id="check" for="check" type="checkbox">ГОСТИННИЦА</label>
+        <label><input id="check" for="check" type="checkbox">МОТЕЛЬ</label>
+        <label><input id="check" for="check" type="checkbox">АППАРТАМЕНТЫ</label>
+    </fieldset>
+    </form>
     <div class="cost">
-        <p>Стоимость в сутки (р):</p><br>
-        <p>от 0 до 3000</p><br>
-        <button>показать</button>
+        <p>Стоимость в сутки (р):</p>
+        <p>от 0 до 3000</p>
+        <input type="submit" value="Показать"
     </div>
 </div>
 <div class="find">
-    <h2>НАЙДЕНО: 3</h2><br>
+    <h2>НАЙДЕНО: 3</h2>
     <p>Сортировка:</p>
     <a href="#">По цене</a>
     <a href="#">По типу</a>
