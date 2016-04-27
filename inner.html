@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="main-navigation">
-            <ul>
-                <li><a href="#">ИНФОРМАЦИЯ</a></li>
-                <li><a href="#">ФОТО И ВИДЕО</a></li>
-                <li><a href="#">КАРТА ШТАТА</a></li>
-                <li><a href="#">ГОСТИНИЦЫ</a></li>
+            <ul class="left-side">
+                <li class="active"><a href="index.html">Информация</a></li>
+                <li><a href="#">Фото и видео</a></li>
+            </ul>
+            <a href="index.html" class="menu-logo">
+                <img src="img/menu-logo.png" width="140" height="70" alt="Logo">
+            </a>
+            <ul class="right-side">
+                <li><a href="#">Карта штата</a></li>
+                <li><a href="inner.html">Гостиницы</a></li>
             </ul>
         </nav>
     </header>
@@ -30,7 +36,7 @@
             </fieldset>
         </form>
         <form action="">
-            <fieldset>
+            <fieldset class="typehouse">
                 <legend>тип жилья:</legend>
                 <label>
                     <input id="check" for="check" type="checkbox">ГОСТИННИЦА</label>
@@ -45,58 +51,74 @@
             <p>от 0 до 3000</p>
             <input type="submit" value="Показать" </div>
         </div>
-        <div class="find">
-            <h2>НАЙДЕНО: 3</h2>
-            <p>Сортировка:</p>
+    </div>
+    <div class="find">
+        <div class="find1">НАЙДЕНО: 3
+        </div>
+        <span class="sort">Сортировка:
             <a href="#">По цене</a>
             <a href="#">По типу</a>
             <a href="#">По рейтингу</a>
-        </div>
-        <div class="hotels">
-            <div class="hotel-amara">
-                <img src="#" alt="HOTEL AMARA">
-                <h2>AMARA RESOLT & SPA</h2>
+            </span>
+        <div class="triandgle"></div>
+    </div>
+    <div class="hotels">
+        <div class="hotel-amara">
+            <img src="#" class="hotel-amara-img" alt="HOTEL AMARA">
+            <div class="amara-block">
+                AMARA RESOLT & SPA
                 <p>Гостиница</p>
                 <p>От 3500 р.</p>
                 <a href="#">Подробнее</a>
                 <a href="#">Забронировать</a>
+            </div>
+            <div class="amara-stars">
                 <img src="#" alt="звезды">
                 <p>рейтинг 8.5</p>
             </div>
-            <div class="hotel-desert">
-                <img src="#" alt="DESERT QUAIL INN">
-                <h2>DESERT QUAIL INN</h2>
+        </div>
+        <div class="hotel-desert">
+            <img src="#" class="hotel-desert-img" alt="DESERT QUAIL INN">
+            <div class="desert-block">
+                DESERT QUAIL INN
                 <p>Мотель</p>
                 <p>от 2000 р.</p>
                 <a href="#">Подробнее</a>
                 <a href="#">Забронировать</a>
+            </div>
+            <div class="desert-stars">
                 <img src="#" alt="звезды">
                 <p>рейтинг 8.9</p>
             </div>
-            <div class="hotel-diablo">
-                <img src="#" alt="VILLAS AT POCO DIABLO">
-                <h2>VILLAS AT POCO DIABLO</h2>
+        </div>
+        <div class="hotel-diablo">
+            <img src="#" class="hotel-diablo-img" alt="VILLAS AT POCO DIABLO">
+            <div class="diablo-block">
+                VILLAS AT POCO DIABLO
                 <p>Аппартаменты</p>
                 <p>от 4000 р.</p>
                 <a href="#">Подробнее</a>
                 <a href="#">Забронировать</a>
+            </div>
+            <div class="diablo-stars">
                 <img src="#" alt="звезды">
                 <p>рейтинг 9.2</p>
             </div>
         </div>
-        <footer>
-            <div class="visit">
-                <h2>#VISITSEDONA</h2>
-            </div>
-            <div class="social">
-                <a href="#">ВК</a>
-                <a href="#">FB</a>
-                <a href="#">INST</a>
-            </div>
-            <div class="designed">
-                <img src="#" alt="HTML ACADEMY">
-            </div>
-        </footer>
+    </div>
+    <footer>
+        <div class="visit">
+            #VISITSEDONA
+        </div>
+        <div class="social">
+            <a href="#">ВК</a>
+            <a href="#">FB</a>
+            <a href="#">INST</a>
+        </div>
+        <div class="designed">
+            <img src="#" alt="HTML ACADEMY">
+        </div>
+    </footer>
 </body>
 
 </html>

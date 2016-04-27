@@ -1,22 +1,358 @@
-body{
+body {
     font-size: 14px;
     line-height: 26px;
     color: #000000;
     font-weight: bold;
     font-family: PTSans Bold;
 }
-h1{
+
+h1 {
     font-size: 21px;
     line-height: 26px;
     color: #000000;
     font-weight: bold;
-    font-family: PTSans Bold;  
+    font-family: PTSans Bold;
 }
-h2{
+
+h2 {
     font-size: 14px;
     line-height: 26px;
     color: #333333;
     font-weight: regular;
-    font-family: Myriad Pro Regular;    
+    font-family: Myriad Pro Regular;
+    width: 570px;
+    min-height: 75px;
+    margin-left: 250px;
+    background-color: #8f7087;
+}
 
+header {
+    width: 1200px;
+    min-height: 72px;
+}
+
+.main-navigation {
+    width: 1055px;
+    min-height: 72px;
+    float: left;
+    background: yellow;
+}
+
+.menu-logo {
+    width: 145px;
+}
+
+.left-side {
+    float: left;
+    width: 342px;
+}
+
+.right-side {
+    float: right;
+    width: 342px;
+}
+
+.main-background {
+    background: purple;
+    width: 1055px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.first-about {
+    width: 1055px;
+    min-height: 255px;
+}
+
+.second-about {
+    width: 1055px;
+    min-height: 255px;
+    margin-top: 20px;
+}
+
+.about-text1 {
+    float: left;
+    width: 400px;
+    min-height: 255px;
+    background: #343666;
+}
+
+.about-img1 {
+    float: right;
+    width: 655px;
+    min-height: 255px;
+    background: #295;
+}
+
+.about-sedona {
+    width: 570px;
+    margin-left: 250px;
+    background-color: #16d88d;
+}
+
+.interesting {
+    width: 570px;
+    margin-left: 250px;
+    background-color: #16d88d;
+}
+
+.about-text2 {
+    float: left;
+    width: 380px;
+    min-height: 255px;
+    background: #f18282;
+}
+
+.about-text3 {
+    float: left;
+    width: 350px;
+    min-height: 255px;
+    background: #f3afa6;
+}
+
+.about-text4 {
+    float: right width: 400px;
+    min-height: 255px;
+    background: #fbd7d3;
+}
+
+.third-about {
+    width: 1055px;
+    min-height: 255px;
+    margin-top: 20px;
+}
+
+.about-text5 {
+    float: right;
+    width: 400px;
+    min-height: 255px;
+    background: #6ab8df;
+}
+
+.about-img2 {
+    float: left;
+    width: 655px;
+    min-height: 255px;
+    background: #5ac3f8;
+}
+
+.fourth-about {
+    width: 1055px;
+    min-height: 255px;
+    margin-top: 20px;
+}
+
+.about-text6 {
+    float: left;
+    width: 350px;
+    min-height: 255px;
+    background: #5bec84;
+}
+
+.about-text7 {
+    float: left;
+    width: 350px;
+    min-height: 255px;
+    background: #16c748;
+}
+
+.about-text8 {
+    float: right;
+    width: 355px;
+    min-height: 255px;
+    background: #789480;
+}
+
+.search {
+    width: 1055px;
+    min-height: 300px;
+}
+
+.search-img {
+    width: 570px;
+    height: 90px;
+    margin: 0 auto;
+    background: #766357;
+    margin-top: 100px;
+}
+
+.search-btn {
+    width: 1055px;
+    height: 475px;
+    background: #dff6f7;
+}
+
+.search-date {
+    width: 570px;
+    height: 400px;
+    margin: 0 auto;
+    background: #efb895;
+}
+
+footer {
+    height: 120px;
+    width: 1055px;
+    margin-top: 10px;
+}
+
+.visit {
+    float: left;
+    width: 240px;
+    height: 120px;
+    background: #4930b5;
+}
+
+.social {
+    float: left;
+    width: 400px;
+    height: 120px;
+    background: #726b8e;
+    margin-left: 50px;
+}
+
+.designed {
+    float: right;
+    width: 300px;
+    height: 120px;
+    background: #8970f6;
+}
+
+
+/* стили к инеру */
+
+.filters {
+    width: 1055px;
+    height: 220px;
+}
+
+.infrastructure {
+    float: left;
+    width: 313px;
+    height: 220px;
+}
+
+.typehouse {
+    float: left;
+    width: 313px;
+    height: 220px;
+}
+
+.cost {
+    float: right;
+    width: 200px;
+    height: 220px;
+}
+
+.find {
+    width: 1055px;
+    margin-top: 50px;
+    height: 85px;
+}
+
+.find1 {
+    float: left;
+    width: 100px;
+    height: 85px;
+    background: #c0b865;
+}
+
+span.sort {
+    float: left;
+    width: 560px;
+    height: 85px;
+    background: #fbe70a;
+}
+
+.triandgle {
+    float: right;
+    width: 40px;
+    height: 85px;
+    background: #f1eba5;
+}
+
+.hotel-amara {
+    width: 1055px;
+    height: 155px;
+    margin-top: 10px;
+    background: #b7b7b7;
+}
+
+.hotel-amara-img {
+    float: left;
+    width: 135px;
+    height: 90px;
+    background: #a5f1ed;
+}
+
+.amara-block {
+    float: left;
+    width: 600px;
+    height: 155px;
+    margin-left: 50px;
+    background: #3bf1e6;
+}
+
+.amara-stars {
+    float: right;
+    width: 240px;
+    height: 155px;
+    background: #1fc0b7;
+}
+
+.hotel-desert {
+    width: 1055px;
+    height: 155px;
+    margin-top: 10px;
+    background: #b7b7b7;
+}
+
+.hotel-desert-img {
+    float: left;
+    width: 135px;
+    height: 90px;
+    background: #a5f1ed;
+}
+
+.desert-block {
+    float: left;
+    width: 600px;
+    height: 155px;
+    margin-left: 50px;
+    background: #3bf1e6;
+}
+
+.desert-stars {
+    float: right;
+    width: 240px;
+    height: 155px;
+    background: #1fc0b7;
+}
+
+.hotel-diablo {
+    width: 1055px;
+    height: 155px;
+    margin-top: 10px;
+    background: #b7b7b7;
+}
+
+.hotel-diablo-img {
+    float: left;
+    width: 135px;
+    height: 90px;
+    background: #a5f1ed;
+}
+
+.diablo-block {
+    float: left;
+    width: 600px;
+    height: 155px;
+    margin-left: 50px;
+    background: #3bf1e6;
+}
+
+.diablo-stars {
+    float: right;
+    width: 240px;
+    height: 155px;
+    background: #1fc0b7;
 }
